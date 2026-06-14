@@ -99,16 +99,18 @@ npm start
 
 # 📁 Project Structure
 
+```
 rakshak/
 │── app/              # Pages (Next.js routing)
-│── components/      # UI components
-│── firebase/        # Firebase config
-│── lib/             # Helper functions
-│── public/          # Static assets
-│── styles/          # Global styles
-│── .env.local       # Environment variables (not pushed)
-│── package.json     # Dependencies
-│── next.config.js   # Next.js config
+│── components/       # UI components
+│── firebase/         # Firebase config
+│── lib/              # Helper functions
+│── public/           # Static assets
+│── styles/           # Global styles
+│── .env.local        # Environment variables (not pushed)
+│── package.json      # Dependencies
+│── next.config.js    # Next.js config
+```
 
 ---
 
