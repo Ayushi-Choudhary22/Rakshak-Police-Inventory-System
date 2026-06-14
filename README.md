@@ -1,11 +1,9 @@
 # 🛡️ Rakshak – Police Inventory Management System
 
----
-
 ## 📌 Overview
-Rakshak is a full-stack web application designed to digitize and streamline police inventory management. It helps manage police station resources, equipment, and departmental assets in a centralized and efficient system.
+Rakshak is a full-stack web application designed to digitize and streamline police inventory management. It helps manage police station resources, equipment, and departmental assets in a centralized system.
 
-The project improves transparency, reduces manual errors, and enables faster and more reliable tracking of inventory across departments.
+The goal is to improve transparency, reduce manual tracking errors, and enable efficient resource allocation across departments.
 
 ---
 
@@ -14,66 +12,55 @@ https://rakshak-police-inventory-system.vercel.app
 
 ---
 
-## 🚀 Features
-- Secure authentication system (Login / Signup)
-- Police department management module
-- Station-wise inventory tracking
-- GPS/location-based module
-- Centralized equipment management
-- Responsive and modern UI
-- Optimized performance with Next.js
+# 🚀 How to Run This Project
+
+This project can be run in TWO ways:
 
 ---
 
-## 🧰 Tech Stack
+# 🟢 OPTION 1: Quick Start (Demo Mode)
 
-**Frontend**
-- Next.js (App Router)
-- React.js
-- Tailwind CSS
-- DaisyUI
+Use this if you just want to run the project locally.
 
-**Backend / Services**
-- Firebase Authentication
-- Firebase Firestore Database
-
-**Deployment**
-- Vercel
+### Step 1: Clone Repository
+git clone https://github.com/Ayushi-Choudhary22/Rakshak-Police-Inventory-System.git  
+cd Rakshak-Police-Inventory-System  
 
 ---
 
-## 📁 Project Structure
-
-```bash
-rakshak/
-│
-├── app/              # Next.js App Router pages
-├── components/       # UI components
-├── firebase/         # Firebase config
-├── lib/              # Helper functions
-├── public/           # Static assets
-├── styles/           # Global styles
-├── .env.local        # Environment variables (not pushed)
-├── package.json      # Dependencies
-└── next.config.js    # Next.js config
+### Step 2: Install Dependencies
+npm install  
 
 ---
 
-## ⚙️ Setup Instructions
-
-### 1. Clone Repository
-git clone https://github.com/Ayushi-Choudhary22/Rakshak-Police-Inventory-System.git
-cd Rakshak-Police-Inventory-System
+### Step 3: Run Project
+npm run dev  
 
 ---
 
-### 2. Install Dependencies
-npm install
+### Step 4: Open in Browser
+http://localhost:3000  
 
 ---
 
-### 3. Create Environment File
-Create a file named `.env.local` in the root folder and add:
+✔ This will start the frontend instantly  
+⚠ Some features may require Firebase setup
+
+---
+
+# 🛠 OPTION 2: Full Setup (Firebase Required)
+
+Use this if you want full functionality (authentication + database).
+
+---
+
+## ⚙️ Step 1: Create Environment File
+
+Create a file in the root folder:
+
+.env.local
+
+Add the following:
 
 NEXT_PUBLIC_FIREBASE_API_KEY=your_api_key
 NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_auth_domain
@@ -84,61 +71,84 @@ NEXT_PUBLIC_FIREBASE_APP_ID=your_app_id
 
 ---
 
-## 🔥 Firebase Setup
+## 🔥 Step 2: Firebase Setup
+
 1. Go to https://console.firebase.google.com
 2. Create a new project
-3. Enable Authentication (Email / Google)
-4. Enable Firestore Database
-5. Copy Firebase config into `.env.local`
+3. Enable:
+   - Authentication (Email / Google)
+   - Firestore Database
+4. Copy Firebase config values
+5. Paste them into `.env.local`
 
 ---
 
-## ▶️ Run Project (Development)
-npm run dev
+## ▶️ Step 3: Run Project
 
-Open in browser:
-http://localhost:3000
-
----
-
-## 🚀 Build for Production
-npm run build
-npm start
+npm install  
+npm run dev  
 
 ---
 
-## 🚀 Deployment (Vercel)
-1. Push project to GitHub
-2. Import repository in Vercel
-3. Add environment variables in Vercel dashboard
-4. Deploy automatically
+## 🚀 Step 4: Production Build
+
+npm run build  
+npm start  
 
 ---
 
-## ⚠️ Common Issue
+# 📁 Project Structure
 
-### Firebase Error: auth/invalid-api-key
+rakshak/
+│── app/              # Pages (Next.js routing)
+│── components/      # UI components
+│── firebase/        # Firebase config
+│── lib/             # Helper functions
+│── public/          # Static assets
+│── styles/          # Global styles
+│── .env.local       # Environment variables (not pushed)
+│── package.json     # Dependencies
+│── next.config.js   # Next.js config
+
+---
+
+# 🚀 Deployment (Vercel)
+
+1. Push project to GitHub  
+2. Import repo in Vercel  
+3. Add environment variables in Vercel dashboard  
+4. Deploy automatically  
+
+---
+
+# ⚠️ Common Issue
+
+## Firebase Error: auth/invalid-api-key
+
 Fix:
-- Check `.env.local` values
-- Ensure Firebase keys are correct
-- Add same variables in Vercel environment settings
+- Check `.env.local`
+- Ensure all Firebase keys are correct
+- Add same environment variables in Vercel dashboard
 
 ---
 
-## 📌 Future Improvements
+# 📌 Future Improvements
+
 - Role-based access control (Admin / Officer)
-- Real-time inventory tracking system
-- AI-based prediction module
+- Real-time inventory tracking
+- AI-based resource prediction
 - Mobile application version
 - Advanced analytics dashboard
 
 ---
 
-## 🤝 Contributions
-Contributions are welcome.
-Fork the repo and submit pull requests for improvements.
+# 🤝 Contributions
+
+Contributions are welcome.  
+Feel free to fork the repository and improve the project.
 
 ---
 
-## 👩‍💻 Author
+# 👩‍💻 Author
+
 Ayushi Choudhary
