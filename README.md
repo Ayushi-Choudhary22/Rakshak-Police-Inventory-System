@@ -1,58 +1,31 @@
-# Rakshak
+# 🚔 Rakshak - Police Inventory Management System
 
-## Introduction
-Rakshak is a [brief description of the project, its purpose, and its target audience]. It aims to [explain the main goals and functionalities of the project].
+## 📌 Overview
+Rakshak is a full-stack police inventory management system designed to digitize and streamline resource tracking, departmental operations, GPS monitoring, and station-level management. It reduces manual workload and improves transparency and efficiency in police administration.
 
-## How to Run the Project
-To run the Rakshak project locally, follow these steps:
+---
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/yourusername/rakshak.git
-   cd rakshak
-   ```
+## ⚙️ Features
+- 📦 Inventory management for police departments
+- 📍 GPS tracking module
+- 🏢 Station-level resource handling
+- 📊 Department dashboard
+- 🔐 Secure authentication system
+- 📡 Real-time updates (where applicable)
 
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
+---
 
-3. **Run the application:**
-   ```bash
-   npm run dev
-   ```
+## 🛠️ Tech Stack
+- **Frontend:** Next.js, React, Tailwind CSS  
+- **Backend:** Next.js API Routes  
+- **Database:** Firebase / MongoDB  
+- **Tools:** Git, GitHub, VS Code  
 
-4. **Access the application:**
-   Open your browser and go to `http://localhost:3000`.
+---
 
-## Routes
-The following routes are available in the Rakshak application:
-
-### Frontend Routes
-- `/department` - Department Page
-- `/gps` - GPS Page
-- `/station` - Station Page
-
-<!-- ### Backend Routes
-- `GET /api/v1/resource` - [Description of the route]
-- `POST /api/v1/resource` - [Description of the route]
-- `PUT /api/v1/resource/:id` - [Description of the route]
-- `DELETE /api/v1/resource/:id` - [Description of the route] -->
-
-## Technologies Used
-Rakshak is built using the following technologies:
-
-- **Frontend:** [e.g., React, Next.js]
-- **Backend:** [e.g., Node.js, Express, Next.js]
-- **Database:** [e.g.,  PostgreSQL, Prisma]
-- **Other Tools:** [e.g., Docker, Postman etc., Redis]
-- **Machine Learning:** [e.g., TensorFlow, LLM, Python]
-
-## Future Scope
-The future scope of Rakshak includes:
-
-- 
-- 
-- 
-
-We welcome contributions and suggestions to enhance the project further.
+## 🚀 How to Run Locally
+```bash
+git clone https://github.com/Ayushi-Choudhary22/Rakshak-Police-Inventory-System.git
+cd Rakshak-Police-Inventory-System
+npm install
+npm run dev
